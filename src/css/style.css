@@ -1,0 +1,39 @@
+/*********** COLORS ***********/
+/*********** HEADERS ***********/
+.topbar-info {
+  background-color: #00295B;
+  color: white;
+  font-size: 14px;
+  border-bottom: 3px solid #000;
+  height: 30px; }
+  .topbar-info .list-inline-item {
+    padding-right: 20px; }
+  .topbar-info i {
+    padding-right: 3px; }
+  .topbar-info a {
+    color: #fff; }
+
+.navbar {
+  background-color: #fff !important;
+  border-bottom: 1px solid #00295B;
+  padding: 0;
+  height: 100px;
+  z-index: 1; }
+  .navbar .navbar-brand {
+    display: contents; }
+    .navbar .navbar-brand img {
+      width: 130px;
+      height: 110px; }
+  .navbar .nav-item {
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1em; }
+    .navbar .nav-item a {
+      color: #000 !important;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      transition: ease 0.2s; }
+    .navbar .nav-item a:hover {
+      border-top: 2px solid #000;
+      border-bottom: 2px solid #000; }

@@ -1,0 +1,66 @@
+/*********** COLORS ***********/
+
+$blue: #00295B;
+$light-red: #D62828;
+$orange: #F77F00;
+$light-yellow: #FCBF49;
+$dutch-white: #EAE2B7;
+
+/*********** HEADERS ***********/
+ 
+.topbar-info {
+    background-color: $blue;
+    color: white;
+    font-size: 14px;
+    border-bottom: 3px solid #000;
+    height: 30px;
+    
+    .list-inline-item {
+        padding-right: 20px;
+    }
+    
+    i {
+        padding-right: 3px;
+    }
+    
+    a {
+        color: #fff;
+    }
+}
+ 
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid $blue;
+    padding: 0;
+    height: 100px;
+    z-index: 1;
+    .navbar-brand {
+        display: contents;
+        
+        img {
+            width: 130px;
+            height: 110px;
+        }
+        
+    }
+    
+    .nav-item {
+        font-size: 0.95rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 1em;
+        
+        
+        a {
+            color: #000 !important;
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            transition: ease 0.2s;
+        }
+        
+        a:hover {
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000; 
+        }
+    }
+}
