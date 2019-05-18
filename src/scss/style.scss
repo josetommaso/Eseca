@@ -77,7 +77,7 @@ $dutch-white: #EAE2B7;
 /*********** JOB EXAMPLES SECTION ***********/
 
 .job-examples {
-    background-color: $orange;
+    background-color: rgba(247, 127, 0, 0.5);
     img {
         border-radius: 3px;
     }
@@ -86,6 +86,25 @@ $dutch-white: #EAE2B7;
 /*********** CONTACT SECTION ***********/
 
 .contact-section {
+    h2 {
+        color: white;
+    }
+    .contact-info {
+        background-image: url("../assets/images/contact-filter.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 375px;
+        .contact {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            a {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+        
+    }
     .submit {
         background-color: $blue;
     }

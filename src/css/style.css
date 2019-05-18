@@ -44,11 +44,27 @@
 
 /*********** JOB EXAMPLES SECTION ***********/
 .job-examples {
-  background-color: #F77F00; }
+  background-color: rgba(247, 127, 0, 0.5); }
   .job-examples img {
     border-radius: 3px; }
 
 /*********** CONTACT SECTION ***********/
+.contact-section h2 {
+  color: white; }
+
+.contact-section .contact-info {
+  background-image: url("../assets/images/contact-filter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px; }
+  .contact-section .contact-info .contact {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400; }
+    .contact-section .contact-info .contact a {
+      color: white;
+      text-decoration: underline; }
+
 .contact-section .submit {
   background-color: #00295B; }
 
