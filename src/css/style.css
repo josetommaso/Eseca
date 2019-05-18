@@ -37,3 +37,21 @@
     .navbar .nav-item a:hover {
       border-top: 2px solid #000;
       border-bottom: 2px solid #000; }
+
+/*********** CHOOSE US SECTION ***********/
+.choose-us i {
+  font-size: 40px; }
+
+/*********** JOB EXAMPLES SECTION ***********/
+.job-examples {
+  background-color: #F77F00; }
+  .job-examples img {
+    border-radius: 3px; }
+
+/*********** CONTACT SECTION ***********/
+.contact-section .submit {
+  background-color: #00295B; }
+
+/*********** FOOTER ***********/
+footer .navbar {
+  border-bottom: none; }

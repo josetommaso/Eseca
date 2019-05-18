@@ -64,3 +64,37 @@ $dutch-white: #EAE2B7;
         }
     }
 }
+
+
+/*********** CHOOSE US SECTION ***********/
+
+.choose-us {
+    i {
+        font-size: 40px;
+    }
+}
+
+/*********** JOB EXAMPLES SECTION ***********/
+
+.job-examples {
+    background-color: $orange;
+    img {
+        border-radius: 3px;
+    }
+}
+
+/*********** CONTACT SECTION ***********/
+
+.contact-section {
+    .submit {
+        background-color: $blue;
+    }
+}
+
+/*********** FOOTER ***********/
+
+footer {
+    .navbar {
+        border-bottom: none;
+    }
+}
