@@ -52,15 +52,31 @@ $dutch-white: #EAE2B7;
         
         
         a {
-            color: #000 !important;
-            border-top: 2px solid #fff;
-            border-bottom: 2px solid #fff;
-            transition: ease 0.2s;
+            // color: #000 !important;
+            // border-top: 2px solid #fff;
+            // border-bottom: 2px solid #fff;
+            // transition: ease 0.2s;
+            position: relative;
         }
         
-        a:hover {
-            border-top: 2px solid #000;
-            border-bottom: 2px solid #000; 
+        a::after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 0%;
+            content: '.';
+            color: transparent;
+            background: $orange;
+            height: 2px;
+            transition: all .5s;
+        }
+        
+        a:hover::after {
+            // border-top: 2px solid #000;
+            // border-bottom: 2px solid #000;
+            width: 100%; 
         }
     }
 }
@@ -69,11 +85,13 @@ $dutch-white: #EAE2B7;
     header {
         .navbar {
             .nav-item {
-                border-bottom: 1px solid $blue;
                 margin: 0 15px;
             }
             .nav-link {
                 background-color: #fff;
+            }
+            .navbar-nav {
+                margin-bottom: 10px;
             }
         }
     }
