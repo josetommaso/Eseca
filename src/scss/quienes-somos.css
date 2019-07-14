@@ -1,0 +1,195 @@
+/*********** COLORS ***********/
+/*********** HEADER ***********/
+.topbar-info {
+  background-color: #00295B;
+  color: white;
+  font-size: 14px;
+  border-bottom: 3px solid #000;
+  height: auto;
+}
+
+.topbar-info .list-inline-item {
+  padding-right: 20px;
+}
+
+.topbar-info i {
+  padding-right: 3px;
+}
+
+.topbar-info a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #fff !important;
+  border-bottom: 1px solid #00295B;
+  padding-top: 0;
+  height: 100px;
+  z-index: 1;
+}
+
+.navbar .navbar-brand {
+  display: contents;
+}
+
+.navbar .navbar-brand img {
+  width: 130px;
+  height: 110px;
+  padding-bottom: 5px;
+}
+
+.navbar .nav-item {
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1em;
+}
+
+.navbar .nav-item a {
+  position: relative;
+}
+
+.navbar .nav-item a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #F77F00;
+  height: 2px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.navbar .nav-item a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  header .navbar .nav-item {
+    margin: 0 15px;
+  }
+  header .navbar .nav-link {
+    background-color: #fff;
+  }
+  header .navbar .navbar-nav {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar img {
+    padding: 10px;
+  }
+}
+
+/*********** CAROUSEL ***********/
+.carousel-item img {
+  width: 100%;
+  min-width: 100%;
+  height: 70vh;
+}
+
+@media (max-width: 767.98px) {
+  .carousel-item img {
+    width: 100%;
+    min-width: 100%;
+    height: 40vh;
+  }
+}
+
+/*********** CHOOSE US SECTION ***********/
+.choose-us i {
+  font-size: 40px;
+}
+
+/*********** JOB EXAMPLES SECTION ***********/
+.logo-slider {
+  background-color: #00295B;
+}
+
+.logo-slider img {
+  padding: 30px;
+  max-width: 200px;
+}
+
+/*********** CONTACT SECTION ***********/
+.contact-section h2 {
+  color: white;
+}
+
+.contact-section .contact-info {
+  background-image: url("../assets/images/contact-filter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.contact-section .contact-info .contact {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.contact-section .contact-info .contact a {
+  color: white;
+  text-decoration: underline;
+}
+
+.contact-section .submit {
+  background-color: #00295B;
+}
+
+/*********** FOOTER ***********/
+footer img {
+  min-width: 110px;
+}
+
+footer .navbar {
+  border-bottom: none;
+}
+
+footer .navbar .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer .navbar .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer p {
+  margin-bottom: 0 !important;
+  padding: 3px;
+  background-color: #00295B;
+  color: #EAE2B7;
+}
+
+.quienes h1,
+.quienes h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.quienes .text-container {
+  padding: 10px;
+}
+
+.quienes p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .quienes h1 {
+    font-size: 3em;
+  }
+  .quienes p {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=quienes-somos.css.map */

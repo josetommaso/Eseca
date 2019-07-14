@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Eseca - Maracay, VE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row pt-1 pb-1 topbar-info">
+                <div class="col-12 d-flex justify-content-end text-center">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <i class="fas fa-phone"></i>
+                        <p class="d-inline">555-555-555</p>
+                    </li>
+                    <li class="list-inline-item">
+                            <i class="fas fa-envelope"></i>
+                        <p class="d-inline"><a href="mailto:ventas[at]eseca.com.ve">ventas[at]eseca.com.ve</p></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="d-inline">San Ignacio, Calle Guarico, Maracay</p>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="assets/images/logo-transparent.png" alt="Eseca logo transparente">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos y Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="contacto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="title text-center mb-5 mt-5">Contacto</h1>
+                        </div>
+                    </div>
+                    <div class="row office-bg">
+                        <div class="col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
+                            <h3 class="text-uppercase">Nuestra oficina</h3>
+                            <p>San Ignacio</p>
+                            <p>Calle Guarico</p>
+                            <p>Maracay, edo. Aragua</p>
+                            <a href="mailto:ventas[at]eseca.com.ve">ventas@eseca.com.ve</a>
+                        </div>
+                        <div class="col-sm-12 col-lg-6 form-section">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Nombre:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo Electronico:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                        <label for="telephone">Telefono:</label>
+                                        <input type="tel" class="form-control" id="telephone" placeholder="Telefono">
+                                    </div>
+                                <div class="form-group">
+                                    <label for="textarea">Comentario:</label>
+                                    <textarea class="form-control" id="textarea" rows="3" placeholder="Ingresa tu comentario" required></textarea>
+                                </div>
+                                <div class="text-center mt-4 mb-4">
+                                    <input class="btn btn-primary submit" type="submit" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 pl-0 pr-0 pb-5">
+                            <div id='map' style='width: 100%; height: 300px;'></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a class="" href="#">
+                        <img src="assets/images/logo-transparent.png" class="w-50 mw-75" alt="Eseca logo transparente">
+                    </a>
+                </div>
+                <div class="col-9">
+                    <nav class="navbar d-flex justify-content-end h-100">
+                        <ul class="nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Productos y Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0">
+            <p class="text-center">Copyright &copy; 2019 Eseca C.A Venezuela | made by Jose Tommaso</p>
+        </div>
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

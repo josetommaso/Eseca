@@ -18,7 +18,7 @@ $(document).ready(function(){
     /* SLICK SLIDER */
 
     $('.logo-slider').slick({
-        slidesToShow: 6,
+        slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -31,6 +31,11 @@ $(document).ready(function(){
             slidesToShow: 4
           }
         }, {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 4
+            }
+          }, {
           breakpoint: 520,
           settings: {
             slidesToShow: 3

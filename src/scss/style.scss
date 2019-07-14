@@ -40,6 +40,7 @@ $dutch-white: #EAE2B7;
         img {
             width: 130px;
             height: 110px;
+            padding-bottom: 5px;
         }
         
     }
@@ -68,7 +69,7 @@ $dutch-white: #EAE2B7;
             width: 0%;
             content: '.';
             color: transparent;
-            background: $orange;
+            background: $blue;
             height: 2px;
             transition: all .5s;
         }
@@ -93,6 +94,14 @@ $dutch-white: #EAE2B7;
             .navbar-nav {
                 margin-bottom: 10px;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        img {
+            padding: 10px;
         }
     }
 }
@@ -132,6 +141,7 @@ $dutch-white: #EAE2B7;
     background-color: $blue;
     img {
         padding: 30px;
+        max-width: 200px;
     }
 }
 
@@ -172,6 +182,14 @@ footer {
     }
     .navbar {
         border-bottom: none;
+        
+        .nav-link {
+            color: rgba(0,0,0,.5);
+        }
+        
+        .nav-link:hover {
+            color: rgba(0,0,0,.7);
+        }
     }
     p {
         margin-bottom: 0 !important;

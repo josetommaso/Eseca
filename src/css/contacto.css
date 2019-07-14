@@ -1,0 +1,27 @@
+/*********** COLORS ***********/
+/*********** CONTACTO ***********/
+.office-bg {
+  background: url("../assets/images/contact2.jpg") center no-repeat;
+  background-size: cover; }
+  .office-bg h3,
+  .office-bg p,
+  .office-bg a {
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif; }
+  .office-bg h3 {
+    border-bottom: 2px solid #fff;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  .office-bg p {
+    font-size: 1.2em; }
+
+.form-section {
+  padding: 30px; }
+  .form-section label {
+    font-weight: bold;
+    color: #fff; }
+  .form-section .btn-primary {
+    background-color: #D62828;
+    border-color: #D62828; }
